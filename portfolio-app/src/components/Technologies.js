@@ -10,12 +10,12 @@ import { FaGithub } from "react-icons/fa";
 
 const Technologies = () => {
   return (
-    <div className='font-Raleway w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white'>
+    <div className='font-Raleway w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white py-20'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Technologies </p>
             </div>
-            <div className='grid sm:grid-cols-3 md:grid-cols-4 self-center items-center justify-center gap-10 mt-20'>
+            <div className='grid grid-cols-3 md:grid-cols-4 self-center items-center justify-center gap-10 mt-20'>
                 <div className='rounded-2xl border-4 border-gray-500 p-4'>
                     <RiReactjsLine className='text-7xl text-[#61DBFB]' />
                 </div>
