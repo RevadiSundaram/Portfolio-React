@@ -2,6 +2,7 @@ import React from 'react';
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import heroImage from "../assets/renu.jpeg";
 import { motion } from "framer-motion";
+import { Link } from 'react-scroll';
 
 const container = (delay) => ({
     hidden: {x: -100, opacity: 0},
@@ -29,14 +30,17 @@ const Home = () => {
                     animate="visible" 
                     className='text-gray-500 py-4 max-w-md'>I have around 3.5+ years of experience building software and design.
                     Currently, I love to work on web application using technologies like React, Tailwind, etc </motion.p>
-           
-                <motion.button
-                    variants={container(1)}
-                    initial="hidden"
-                    animate="visible"
+                <div>
+
+                
+                <Link
+                    to='portfolio'
+                    smooth
+                    duration={500}
                     className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>Portfolio &nbsp; 
                     <span className='group-hover:rotate-90 duration-300'><MdOutlineKeyboardDoubleArrowRight size={25} /></span>
-                </motion.button>
+                </Link>
+                </div>
             </div>
             <div>
                 <motion.img
