@@ -41,5 +41,5 @@
   "devDependencies": {
     "tailwindcss": "^3.4.7"
   },
-  "homepage": "https://github.com/RevadiSundaram/Portfolio-React/tree/main/portfolio-app"
+  "homepage": "/portfolio-app"
 }
