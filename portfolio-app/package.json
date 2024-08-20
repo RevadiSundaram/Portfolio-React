@@ -41,5 +41,5 @@
   "devDependencies": {
     "tailwindcss": "^3.4.7"
   },
-  "homepage": "/portfolio-app"
+  "homepage": "."
 }
