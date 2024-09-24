@@ -28,8 +28,8 @@ const Home = () => {
                     variants={container(0.5)}
                     initial="hidden"
                     animate="visible" 
-                    className='text-gray-500 py-4 max-w-md'>I have around 3.5+ years of experience building software and design.
-                    Currently, I love to work on web application using technologies like React, Tailwind, etc </motion.p>
+                    className='text-gray-500 py-4 max-w-md'>I have around 4+ years of experience building software and design.
+                    Currently, I love to work on web application using technologies like React, JavaScript, etc </motion.p>
                 <div>
 
                 

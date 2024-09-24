@@ -25,7 +25,19 @@ export const About = () => {
                     transition={{duration: 0.5}} 
                     className='w-full lg:w-1/2'>
                     <div className='flex justify-center lg:justify-start'>
-                        <p className='my-2 max-w-xl py-6 text-xl'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                        <p className='my-2 max-w-xl py-6 text-md'>
+                        I am a passionate Frontend Developer with 2+ years of experience in creating responsive and engaging web applications. Skilled in React, Redux, and TypeScript, I transform complex designs into intuitive user interfaces. My expertise in HTML, CSS, and JavaScript allows me to build adaptive layouts that perform seamlessly across devices and browsers.
+                        <br></br>
+                        <br></br>
+
+I thrive on collaboration, working closely with designers and cross-functional teams to bring Figma mockups to life while ensuring exceptional user experiences. My focus on performance optimization, including techniques like code-splitting and lazy loading, has led to significant improvements in load times and responsiveness.
+<br></br>
+<br></br>
+With a strong commitment to quality, I pay meticulous attention to detail and prioritize maintainable, scalable code. I enjoy tackling challenges in agile environments and continually seek to expand my knowledge of emerging technologies and best practices.
+<br></br>
+<br></br>
+I value effective communication and believe that great results stem from teamwork and shared vision. I am excited to connect with fellow professionals and explore opportunities to contribute my skills to innovative projects.
+                            </p>
                     </div>
                 </motion.div>
                 

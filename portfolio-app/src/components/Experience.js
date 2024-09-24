@@ -6,21 +6,21 @@ const Experience = () => {
             year: "Sep 2023 - Present",
             role: "Front End Developer",
             company: "Societe Generale",
-            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            description: "Engineered intuitive trade deal management features and file uploads, supporting 1,200+ users. Developed a responsive SPA with stock details and corporate events, optimizing navigation and user experience by 15%. Used React, HTML, and Tailwind to create adaptive, cross-browser pages from Figma designs, improving performance with code-splitting and reducing load times by 20%. Engineered seamless integrations between front-end interfaces and back-end databases, leading to a 30% reduction in user-reported bugs and enhancing overall functionality.",
             technologies: ["JavaScript", "React", "HTML", "CSS"]
         },
         {
-            year: "Apr 2023 - Sep 2023",
-            role: "Front End Developer",
+            year: "Aug 2022 - Sep 2023",
+            role: "Application Develoment Analyst",
             company: "Accenture",
-            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            description: "Converted 50+ Figma designs into responsive HTML, CSS, and React code, delivering 100% pixel-perfect precision, leading to a 20% boost in usability and optimized UI/UX for intuitive, user-friendly interfaces. Streamlined navigation and enhanced accessibility, reducing user-reported issues by 50% and actively contributing to the full Product Development Lifecycle.",
             technologies: ["JavaScript", "React", "HTML", "CSS"]
         },
         {
-            year: "Oct 2020 - Mar 2023",
+            year: "Oct 2020 - Aug 2022",
             role: "Application Development Associate",
             company: "Accenture",
-            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            description: "Migrated applications, including upgrading Oracle Forms from 10G to 12C, applying best practices such as pair programming and test-driven development to ensure high-quality outcomes, and debugging/ troubleshooting technical issues efficiently",
             technologies: ["PL/SQL", "SQL", "Oracle Forms"]
         },
 

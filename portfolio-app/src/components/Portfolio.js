@@ -9,11 +9,11 @@ const Portfolio = () => {
     const data = [
         {
             id: 1,
-            heading: "Swiggy Clone App",
-            description: "Developed a Food Ordering Application with Real-time Swiggy live API intergration",
+            heading: "Food Ordering App",
+            description: "Created a Swiggy-like food delivery application, featuring real-time API integration, responsive design and performance optimization through lazy loading, code splitting and Shimmer UI",
             icons: ["reactIcon", "tailwindIcon"],
             gitHubLink: "https://github.com/RevadiSundaram/Namaste-React/tree/main/Swiggy-App",
-            liveLink: ""
+            lang: "React, Redux, Tailwind"
         },
         {
             id: 2,
@@ -21,7 +21,7 @@ const Portfolio = () => {
             description: "Developed a Food Ordering Application with Real-time Swiggy live API intergration",
             icons: ["reactIcon", "tailwindIcon"],
             gitHubLink: "https://github.com/RevadiSundaram/Namaste-React/tree/main/Swiggy-App",
-            liveLink: ""
+            lang: "React, Redux, Tailwind"
         },
         {
             id: 3,
@@ -66,6 +66,7 @@ const Portfolio = () => {
                             <div className='flex gap-2 ml-4'>
                                 {/* <img className='p-1 w-[35px] h-[35px]' src={item.icons[0]} alt="React Icon" />
                                 <img className='p-1 w-[35px] h-[35px]' src={item.icons[1]} alt="React Icon" /> */}
+                                <p className='text-sm'>React, Tailwind</p>
                             </div>
                             <div className='flex gap-2 mr-4'>
                                 <button className='p-1 duration-200 hover:scale-105'>
